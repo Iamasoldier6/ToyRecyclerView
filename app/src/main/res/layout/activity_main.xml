@@ -1,19 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.iamasoldier6.toyrecyclerview.MainActivity">
+    android:orientation="vertical"
+    tools:context=".base.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+    <include layout="@layout/toolbar_widget"/>
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_recycler_linear"
+            style="@style/ButtonStyle"
+            android:text="Linear RecyclerView"/>
+
+        <Button
+            android:id="@+id/btn_recycler_grid"
+            style="@style/ButtonStyle"
+            android:text="Grid RecyclerView"/>
+
+        <Button
+            android:id="@+id/btn_recycler_staggered"
+            style="@style/ButtonStyle"
+            android:text="Staggered RecyclerView"/>
+
+        <Button
+            android:id="@+id/btn_recycler_decoration"
+            style="@style/ButtonStyle"
+            android:text="Decoration RecyclerView"/>
+
+        <Button
+            android:id="@+id/btn_recycler_animator"
+            style="@style/ButtonStyle"
+            android:text="ItemAnimator RecyclerView"/>
+
+        <Button
+            android:id="@+id/btn_recycler_refresh"
+            style="@style/ButtonStyle"
+            android:text="SwipeRefresh RecyclerView"/>
+    </LinearLayout>
+</LinearLayout>

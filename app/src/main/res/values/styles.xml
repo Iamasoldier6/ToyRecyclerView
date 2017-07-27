@@ -1,11 +1,46 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/toy_material_light_green</item>
+        <item name="colorPrimaryDark">@color/toy_material_light_green</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@drawable/divider_purple</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
     </style>
 
+    <style name="AppTheme.WhiteDivider">
+        <item name="android:listDivider">@drawable/divider_white</item>
+    </style>
+
+    <style name="ActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_translate_open</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_scale_close</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_scale_open</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_translate_close</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--设置 Toolbar 的背景颜色-->
+        <item name="android:background">@color/toy_material_middle_green</item>
+        <!--Toolbar 里的 title text 颜色-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--Action(menu) items text 的颜色-->
+        <item name="android:actionMenuTextColor">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:layout_marginLeft">@dimen/toy_dimen_16</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:layout_marginLeft">@dimen/toy_dimen_24</item>
+        <item name="android:layout_marginRight">@dimen/toy_dimen_24</item>
+        <item name="android:layout_marginTop">@dimen/toy_dimen_8</item>
+        <item name="android:layout_marginBottom">@dimen/toy_dimen_8</item>
+    </style>
 </resources>

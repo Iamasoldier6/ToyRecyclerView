@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="toy_google_red">#DB3236</color>
+    <color name="toy_google_blue">#4885ED</color>
+    <color name="toy_google_yellow">#F4C20D</color>
+    <color name="toy_google_green">#3CBA54</color>
+    <color name="toy_light_grey">#CCCCCC</color>
+    <color name="toy_light_yellow">#FFEBCD</color>
+    <color name="toy_material_light_green">#4DB6AC</color>
+    <color name="toy_material_middle_green">#26A69A</color>
 </resources>

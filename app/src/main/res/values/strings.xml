@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">ToyRecyclerView</string>
+    <string name="toy_recycler_view_linear">Linear RecyclerView</string>
+    <string name="toy_recycler_view_horizontal">Linear Horizontal</string>
+    <string name="toy_recycler_view_vertical">Linear Vertical</string>
+    <string name="toy_recycler_view_grid">Grid RecyclerView</string>
+    <string name="toy_recycler_view_grid_standard">Grid Standard</string>
+    <string name="toy_recycler_view_grid_has_header">Grid Has Header</string>
+    <string name="toy_recycler_view_grid_auto_fit">Grid Auto Fit</string>
+    <string name="toy_recycler_view_staggered">Staggered RecyclerView</string>
+    <string name="toy_recycler_view_decoration">Decoration RecyclerView</string>
+    <string name="toy_recycler_view_decoration_standard">Standard Decoration</string>
+    <string name="toy_recycler_view_decoration_overdraw">Overdraw Decoration</string>
+    <string name="toy_recycler_view_item_animator">ItemAnimator RecyclerView</string>
+    <string name="toy_recycler_view_header_animator">Header Animator</string>
+    <string name="toy_recycler_view_footer_animator">Footer Animator</string>
+    <string name="toy_recycler_view_swipe_refresh">SwipeRefresh RecyclerView</string>
 </resources>
