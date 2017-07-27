@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/toy_google_red"/>
+            <corners android:radius="@dimen/toy_dimen_2"/>
+        </shape>
+    </item>
+
+    <item
+        android:bottom="@dimen/toy_dimen_2"
+        android:left="@dimen/toy_dimen_0"
+        android:right="@dimen/toy_dimen_0"
+        android:top="@dimen/toy_dimen_0">
+
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@android:color/white"/>
+            <corners
+                android:bottomLeftRadius="@dimen/toy_dimen_1"
+                android:bottomRightRadius="@dimen/toy_dimen_1"
+                android:topLeftRadius="@dimen/toy_dimen_2"
+                android:topRightRadius="@dimen/toy_dimen_2"/>
+        </shape>
+    </item>
+</layer-list>
